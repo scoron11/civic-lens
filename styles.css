@@ -181,17 +181,11 @@ a:focus {
   text-decoration: underline;
 }
 
-#breaking-news {
-  display: grid;
+#breaking-news > section {
   background-color: var(--news-flash);
-  padding: 2rem;
+  padding: 1.5rem;
   color: var(--watchdog-white);
-}
-
-#breaking-news video {
-  display: block;
-  margin: 1rem auto;
-  max-width: 100%;
+  margin-bottom: 1rem;
 }
 
 /* ///ADD/// medium styles 620px */
