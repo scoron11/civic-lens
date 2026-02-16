@@ -145,6 +145,7 @@ footer {
 /* ///ADD/// Global Text Styles */
 body {
   font-family: var(--font-body);
+  line-height: 1.5;
 }
 
 h1, h2, h3 {
