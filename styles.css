@@ -228,9 +228,6 @@ a:focus {
 /* ///ADD/// x-large styles 1024px */
 @media (min-width: 1024px) {
   main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
     max-width: 1400px;
   }
 }
