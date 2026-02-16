@@ -179,14 +179,15 @@ a:focus {
 }
 
 #breaking-news {
+  display: grid;
   background-color: var(--news-flash);
-  padding: 1rem;
-  color: var(--watchdog-white); 
+  padding: 2rem;
+  color: var(--watchdog-white);
 }
 
 #breaking-news video {
   display: block;
-  margin: 1rem auto;  
+  margin: 1rem auto;
   max-width: 100%;
 }
 
