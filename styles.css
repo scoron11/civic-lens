@@ -184,7 +184,7 @@ a:focus {
 }
 
 #breaking-news video{
-  display: block;
+  display: grid;
   width: 100%;
   margin: 0 auto;
   border-radius: 0;
