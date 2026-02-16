@@ -181,17 +181,21 @@ a:focus {
   text-decoration: underline;
 }
 
-#breaking-news > section {
+#breaking-news {
   background-color: var(--news-flash);
-  padding: 1.5rem;
   color: var(--watchdog-white);
-  margin-bottom: 1rem;
+  padding: 2rem;
 }
 
-#breaking-news video {
+#breaking-news section {
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+}
+
+#breaking-news section video {
   display: block;
-  margin: 1rem auto;
-  max-width: 100%;
+  width: 100%;
   border-radius: 4px;
 }
 
