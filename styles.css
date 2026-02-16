@@ -241,7 +241,7 @@ main { outline: 4px solid red; }
 
 @media (min-width: 920px) {
   .featured-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 4fr);
   }
 }
 /* ///ADD/// x-large styles 1024px */
