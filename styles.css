@@ -146,6 +146,8 @@ footer {
   gap: 1rem;
 }
 
+
+
 form {
   background: var(--news-flash);
   padding: 1.5rem;
@@ -223,6 +225,12 @@ a:focus {
 @media (min-width: 920px) {
   .breaking-news {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 920px) {
+  .featured-articles {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 /* ///ADD/// x-large styles 1024px */
