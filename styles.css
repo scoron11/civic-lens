@@ -168,6 +168,31 @@ form {
   border-radius: 8px;
   color: #fff;
 }
+input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  margin: 4px 0;
+  border-radius: 4px;
+  border: .5px solid black;
+}
+
+#mySubmit {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding: 15px 70px;
+  border-radius: 4px;
+  border: none;
+  filter: drop-shadow(-10px 10px 14px rgba(0,0,0,0.7));
+  background-color: var(--purple);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
 
 /* ///ADD/// Global Text Styles */
 main section{
