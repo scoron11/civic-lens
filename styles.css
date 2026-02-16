@@ -181,10 +181,9 @@ input {
 #subscribe {
   display: block;
   width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   margin-top: 15px;
- 
+  padding: 15px 70px;
   border-radius: 4px;
   border: none;
   background-color: var(--blue-bulletin);
