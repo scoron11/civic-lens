@@ -138,6 +138,10 @@ section {
   margin-bottom: 2rem;
 }
 
+#breaking-news [
+  display: grid;
+]
+
 footer {
   text-align: center;
   padding: 1rem;
