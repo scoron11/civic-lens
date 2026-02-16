@@ -178,15 +178,15 @@ a:focus {
   text-decoration: underline;
 }
 
-section #breaking-news {
+#breaking-news {
   background-color: var(--news-flash);
   padding: 1rem;
   color: var(--watchdog-white); 
 }
 
-section #breaking-news video {
+#breaking-news video {
   display: block;
-  margin: 1rem auto; 
+  margin: 1rem auto;  
   max-width: 100%;
 }
 
