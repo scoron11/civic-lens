@@ -187,13 +187,13 @@ a:focus {
   padding: 2rem;
 }
 
-#breaking-news section {
+#breaking-news .card {
   padding: 1rem;
   margin-bottom: 1.5rem;
   border-radius: 6px;
 }
 
-#breaking-news section video {
+#breaking-news .card video {
   display: block;
   width: 100%;
   border-radius: 4px;
