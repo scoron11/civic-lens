@@ -134,7 +134,7 @@ main {
 }
 
 section {
-  display: block;
+  display: grid;
   margin-bottom: 2rem;
 }
 
