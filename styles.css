@@ -142,11 +142,25 @@ footer {
 }
 
 #featured-articles {
-  display: grid;
-  gap: 1rem;
+  margin-top: 2rem;
 }
 
+.featured-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
 
+.featured-card {
+  background: var(--watchdog-white);
+  color: var(--truth-text);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  transition: var(--transition);
+}
 
 form {
   background: var(--news-flash);
