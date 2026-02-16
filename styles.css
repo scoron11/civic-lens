@@ -127,9 +127,39 @@ nav a {
 }
 
 /* ///ADD/// Global Layout Styles */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+}
 
 /* ///ADD/// Global Text Styles */
+body {
+  font-family: var(--font-body);
+}
 
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
 
 /* ///ADD/// medium styles 620px */
 
