@@ -141,7 +141,7 @@ footer {
   padding: 1rem;
 }
 
-.featured-articles {
+#featured-articles {
   display: grid;
   gap: 1rem;
 }
