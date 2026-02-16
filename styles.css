@@ -272,10 +272,6 @@ a:focus {
   gap: 1.5rem;
 }
 
-main { outline: 4px solid red; }
-#breaking-news { outline: 4px solid blue; }
-#featured-articles { outline: 4px solid green; }
-
 /* ///ADD/// medium styles 620px */
 
 @media (min-width: 620px) {
