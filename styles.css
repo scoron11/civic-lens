@@ -148,6 +148,13 @@ footer {
 }
 
 /* ///ADD/// Global Text Styles */
+main{
+  width: calc(100% - 2rem);
+  max-width: 1100px;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
 body {
   font-family: var(--font-body);
   line-height: 1.5;
