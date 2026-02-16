@@ -156,13 +156,6 @@ form {
 }
 
 /* ///ADD/// Global Text Styles */
-main{
-  width: calc(100% - 2rem);
-  max-width: 1100px;
-  margin: 1rem auto;
-  padding: 1rem;
-}
-
 main section{
   margin: 1rem auto;
 }
@@ -213,6 +206,10 @@ a:focus {
   gap: 1.5rem;
 }
 
+main { outline: 4px solid red; }
+.breaking-news { outline: 4px solid blue; }
+.featured-articles { outline: 4px solid green; }
+
 /* ///ADD/// medium styles 620px */
 
 @media (min-width: 620px) {
@@ -239,10 +236,6 @@ a:focus {
     max-width: 1400px;
   }
 }
-
-  h2 {
-    grid-column: 1 / -1; 
-  }
 
 /* ///ADD/// Interaction Queries for color scheme light and dark and motion preference */
 
