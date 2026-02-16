@@ -221,7 +221,7 @@ a:focus {
 /* ///ADD/// large styles 920px */
 
 @media (min-width: 920px) {
-  .breaking-news-grid {
+  .breaking-news {
     grid-template-columns: repeat(2, 1fr);
   }
 }
