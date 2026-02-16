@@ -86,8 +86,45 @@ body.dark-mode {
 }
 
 /* ///ADD/// Skip Link Styles */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--news-flash);
+  color: var(--watchdog-white);
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.skip-link:focus {
+  top: 0;
+}
 
 /* ///ADD/// Navigation Styles */
+nav {
+  background-color: var(--blue-bulletin);
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: none;
+}
+
+nav a {
+  color: var(--watchdog-white);
+  text-decoration: none;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked + ul {
+  display: block;
+}
 
 /* ///ADD/// Global Layout Styles */
 
