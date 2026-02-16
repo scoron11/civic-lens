@@ -103,8 +103,11 @@ body.dark-mode {
 }
 
 /* ///ADD/// Navigation Styles */
-nav {
+header {
   background-color: var(--blue-bulletin);
+}
+
+nav {
   padding: 1rem;
   grid-column: 1 / -1;
 }
