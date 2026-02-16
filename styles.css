@@ -146,6 +146,13 @@ footer {
   gap: 1rem;
 }
 
+form {
+  background: var(--news-flash);
+  padding: 1.5rem;
+  border-radius: 8px;
+  color: #fff;
+}
+
 /* ///ADD/// Global Text Styles */
 main{
   width: calc(100% - 2rem);
