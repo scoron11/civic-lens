@@ -240,7 +240,7 @@ main { outline: 4px solid red; }
 }
 
 @media (min-width: 920px) {
-  #featured-articles {
+  .featured-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
