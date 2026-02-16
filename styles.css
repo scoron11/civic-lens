@@ -140,7 +140,6 @@ section {
 
 #breaking-news {
   display: grid;
-  background-color: var(--news-flash);
 }
 
 footer {
@@ -182,6 +181,7 @@ a:focus {
 #breaking-news section{
   max-width: 650px;
   margin: 0 auto 3rem auto;
+  background-color: var(--news-flash);
 }
 
 #breaking-news video{
