@@ -141,6 +141,11 @@ footer {
   padding: 1rem;
 }
 
+.featured-articles {
+  display: grid;
+  gap: 1rem;
+}
+
 /* ///ADD/// Global Text Styles */
 main{
   width: calc(100% - 2rem);
