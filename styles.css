@@ -178,18 +178,16 @@ a:focus {
   text-decoration: underline;
 }
 
-#breaking-news section{
-  max-width: 650px;
-  margin: 0 auto 3rem auto;
+section #breaking-news {
   background-color: var(--news-flash);
+  padding: 1rem;
+  color: var(--watchdog-white); 
 }
 
-#breaking-news video{
-  display: grid;
-  width: 100%;
-  margin: 0 auto;
-  border-radius: 0;
-  box-shadow: none;
+section #breaking-news video {
+  display: block;
+  margin: 1rem auto; 
+  max-width: 100%;
 }
 
 /* ///ADD/// medium styles 620px */
