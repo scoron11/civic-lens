@@ -201,14 +201,14 @@ a:focus {
   border-radius: 4px;
 }
 
-.breaking-news {
+#breaking-news {
   display: grid;
   gap: 1.5rem;
 }
 
 main { outline: 4px solid red; }
-.breaking-news { outline: 4px solid blue; }
-.featured-articles { outline: 4px solid green; }
+#breaking-news { outline: 4px solid blue; }
+#featured-articles { outline: 4px solid green; }
 
 /* ///ADD/// medium styles 620px */
 
@@ -220,13 +220,13 @@ main { outline: 4px solid red; }
 /* ///ADD/// large styles 920px */
 
 @media (min-width: 920px) {
-  .breaking-news {
+  #breaking-news {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 920px) {
-  .featured-articles {
+  #featured-articles {
     grid-template-columns: repeat(3, 1fr);
   }
 }
