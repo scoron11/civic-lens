@@ -180,7 +180,7 @@ input {
 
 #subscribe {
   display: block;
-  width: fit-content;
+  width: 100%;
   margin-top: 15px;
   padding: 15px 0px;
   border-radius: 4px;
