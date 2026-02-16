@@ -140,6 +140,7 @@ section {
 
 #breaking-news {
   display: grid;
+  background-color: var(--news-flash);
 }
 
 footer {
