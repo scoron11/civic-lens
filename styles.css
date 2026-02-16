@@ -128,6 +128,7 @@ nav a {
   border-radius: 0.25rem;
 }
 
+
 #menu-toggle {
   display: none;
 }
@@ -137,6 +138,11 @@ nav a {
 }
 
 /* ///ADD/// Global Layout Styles */
+a{
+  display: block;
+  padding: 1rem;
+}
+
 main {
   max-width: 1200px;
   margin: 0 auto;
