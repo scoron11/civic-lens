@@ -187,13 +187,18 @@ a:focus {
   padding: 1rem;
   border-radius: 6px;
   box-shadow: var(--shadow);
-  margin-bottom: 1.5rem;
 }
 
 .card video {
-  display: block;
   width: 100%;
   border-radius: 4px;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+#breaking-news {
+  display: grid;
+  gap: 1rem; /* spacing between cards */
 }
 
 /* ///ADD/// medium styles 620px */
@@ -206,9 +211,9 @@ a:focus {
 /* ///ADD/// large styles 920px */
 
 @media (min-width: 920px) {
-  body {
-    font-size: 1.1rem;
-  }
+    #breaking-news {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
 }
 /* ///ADD/// x-large styles 1024px */
 @media (min-width: 1024px) {
