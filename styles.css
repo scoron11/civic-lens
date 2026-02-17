@@ -103,7 +103,7 @@ body.dark-mode {
 }
 
 /* ///ADD/// Navigation Styles */
-header {
+header, footer {
   background-color: var(--blue-bulletin);
 }
 
