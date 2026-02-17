@@ -214,7 +214,7 @@ fieldset {
 }
 
 fieldset label {
-  display: flex;
+  display: block;
   align-items: center;
   gap: 0.5rem;
 }
