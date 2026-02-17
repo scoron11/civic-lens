@@ -295,7 +295,7 @@ p {
   margin-bottom: 1rem;
 }
 
-footer h2 {
+footer h2, footer small {
   color: var(--watchdog-white);
 }
 
