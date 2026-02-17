@@ -107,6 +107,10 @@ header {
   background-color: var(--blue-bulletin);
 }
 
+header p{
+  color: var(--watchdog-white);
+}
+
 nav {
   padding: 1rem;
   grid-column: 1 / -1;
