@@ -202,7 +202,7 @@ fieldset input[type="checkbox"] {
 }
 
 fieldset {
-  border: 1px;
+  border: 1px solid black;
   margin-top: 1.5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
