@@ -117,20 +117,20 @@ nav {
 }
 
 nav ul {
-  display: grid;
-  gap: 0.75rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
 }
 
 nav a {
-  color: var(--watchdog-white);
-  text-decoration:none;
-  text-align: center;
-  padding: 10px;
-  margin: auto;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0;
   background-color: var(--news-flash);
-  font-size: 1rem;
+  color: var(--watchdog-white);
   font-weight: bold;
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 
 #menu-toggle {
@@ -148,7 +148,7 @@ a{
 }
 
 main {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -320,9 +320,6 @@ a:focus {
 @media (min-width: 920px) {
   .featured-grid {
     grid-template-columns: repeat(3, 1fr);
-  }
-    nav ul {
-    grid-template-columns: repeat(4, 1fr);
   }
 }
 /* ///ADD/// x-large styles 1024px */
