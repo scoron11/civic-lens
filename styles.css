@@ -149,11 +149,6 @@ footer {
   padding: 1.5rem;
 }
 
-a {
-  display: block;
-  padding: 1rem;
-}
-
 footer {
   text-align: center;
 }
@@ -254,12 +249,6 @@ main section{
   margin: 1rem auto;
 }
 
-body {
-  font-family: var(--font-body);
-  line-height: 1.5;
-  padding: 0 1.5rem;
-}
-
 h1{
   font-family: var(--font-heading);
   font-size: 2rem;
@@ -314,9 +303,6 @@ a:focus {
 /* ///ADD/// medium styles 620px */
 
 @media (min-width: 620px) {
-  main {
-    padding: 2rem;
-  }
   .menu-button {
     display: none;
   }
