@@ -141,13 +141,6 @@ nav a {
 }
 
 /* ///ADD/// Global Layout Styles */
-header,
-main,
-footer {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1.5rem;
-}
 
 body {
   font-family: var(--font-body);
@@ -333,7 +326,9 @@ a:focus {
 }
 /* ///ADD/// x-large styles 1024px */
 @media (min-width: 1024px) {
-  main {
+  header,
+  main,
+  footer {
     max-width: 1400px;
   }
 }
