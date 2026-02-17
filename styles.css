@@ -105,7 +105,6 @@ body.dark-mode {
 /* ///ADD/// Navigation Styles */
 header {
   background-color: var(--blue-bulletin);
-  padding: 1rem;
 }
 
 header p {
@@ -113,7 +112,6 @@ header p {
 }
 
 nav {
-  padding: 1rem;
   grid-column: 1 / -1;
 }
 
@@ -143,20 +141,21 @@ nav a {
 }
 
 /* ///ADD/// Global Layout Styles */
+header,
+main,
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
 a {
   display: block;
   padding: 1rem;
 }
 
-main {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem;
-}
-
 footer {
   text-align: center;
-  padding: 1rem;
 }
 
 #featured-articles {
@@ -258,6 +257,7 @@ main section{
 body {
   font-family: var(--font-body);
   line-height: 1.5;
+  padding: 0 1.5rem;
 }
 
 h1{
