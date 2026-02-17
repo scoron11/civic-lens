@@ -176,6 +176,9 @@ footer {
 }
 
 form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1.5rem;
   background: var(--news-flash);
   padding: 1.5rem;
   border-radius: 8px;
