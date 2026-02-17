@@ -236,7 +236,7 @@ fieldset label {
 
 /* ///ADD/// Global Text Styles */
 blockquote {
-  display: center;
+  align-items: center;
 }
 
 main section{
