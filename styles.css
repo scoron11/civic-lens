@@ -220,6 +220,7 @@ form {
   grid-template-columns: 1fr 1fr; 
   gap: 1rem 1.5rem;
   background: var(--news-flash);
+  padding: 1.5rem;
 }
 
 .form-group {
