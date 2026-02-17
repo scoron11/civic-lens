@@ -252,7 +252,9 @@ h1{
   font-family: var(--font-heading);
   font-weight: bold;
   font-size: 2rem;
-  color: var(--watchdog-white)
+  color: var(--watchdog-white);
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 h2, h3 {
