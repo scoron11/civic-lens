@@ -142,6 +142,14 @@ nav a {
 
 /* ///ADD/// Global Layout Styles */
 
+header,
+main,
+footer {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
 body {
   font-family: var(--font-body);
   line-height: 1.5;
@@ -330,6 +338,7 @@ a:focus {
   main,
   footer {
     max-width: 1400px;
+    margin: 0 auto;
   }
 }
 
