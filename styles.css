@@ -214,7 +214,7 @@ fieldset {
 }
 
 fieldset label {
-  display: block;
+  display: flex;
   align-items: center;
   gap: 0.5rem;
 }
@@ -233,7 +233,7 @@ fieldset label {
 }
 
 .form-group {
-  display: flex;
+  display: block;
   flex-direction: column;
 }
 
