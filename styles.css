@@ -219,6 +219,7 @@ form {
   display: grid;
   grid-template-columns: 1fr 1fr; 
   gap: 1rem 1.5rem;
+  background: var(--news-flash);
 }
 
 .form-group {
