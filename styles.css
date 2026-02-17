@@ -121,10 +121,10 @@ nav a {
   color: var(--watchdog-white);
   text-decoration:none;
   text-align: center;
-  padding: 1rem solid black;
-  margin: 1rem 0;
+  padding: 1rem;
+  margin: auto;
   background-color: var(--news-flash);
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: bold;
   border-radius: 0.25rem;
 }
