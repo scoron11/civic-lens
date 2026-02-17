@@ -295,6 +295,10 @@ p {
   margin-bottom: 1rem;
 }
 
+footer h2 {
+  color: var(--watchdog-white);
+}
+
 a:hover,
 a:focus {
   text-decoration: underline;
