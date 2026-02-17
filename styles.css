@@ -108,7 +108,7 @@ header {
 }
 
 nav {
-  padding: 1rem;
+  padding: 0.5rem;
   grid-column: 1 / -1;
 }
 
@@ -232,10 +232,7 @@ fieldset label {
   font-size: 18px;
 }
 
-.form-group {
-  display: block;
-  flex-direction: column;
-}
+
 
 /* ///ADD/// Global Text Styles */
 main section{
