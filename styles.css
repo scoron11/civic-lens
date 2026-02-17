@@ -235,6 +235,10 @@ fieldset label {
 
 
 /* ///ADD/// Global Text Styles */
+blockquote {
+  display: center;
+}
+
 main section{
   margin: 1rem auto;
 }
