@@ -232,6 +232,11 @@ fieldset label {
   font-size: 18px;
 }
 
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
 /* ///ADD/// Global Text Styles */
 main section{
   margin: 1rem auto;
