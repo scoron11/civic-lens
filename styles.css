@@ -222,11 +222,12 @@ form {
   background: var(--news-flash);
   padding: 1.5rem;
   border-radius: 8px;
-  color: var(--watchdog-white);
+  color: #fff;
 }
+
 .form-group {
   display: flex;
-  flex-direction: column; /* puts the label on top of the input */
+  flex-direction: column; 
 }
 
 input[type="text"],
@@ -266,7 +267,7 @@ fieldset label {
 }
 
 #subscribe {
-  grid-column: 1 / -1;
+  grid-column: 1 / -1; 
   width: 100%;
   margin-top: 15px;
   padding: 15px 0;
@@ -371,11 +372,11 @@ a:focus {
     gap: 1rem;
   }
   form {
-    grid-template-columns: 1fr; /* stack columns vertically */
+    grid-template-columns: 1fr; 
   }
 
   fieldset {
-    grid-template-columns: 1fr 1fr; /* fewer columns for checkboxes */
+    grid-template-columns: 1fr 1fr; 
   }
 
   #subscribe {
