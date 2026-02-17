@@ -105,6 +105,7 @@ body.dark-mode {
 /* ///ADD/// Navigation Styles */
 header {
   background-color: var(--blue-bulletin);
+  padding: 1rem;
 }
 
 header p {
@@ -118,7 +119,7 @@ nav {
 
 nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1rem;
   padding: 0;
 }
@@ -236,7 +237,9 @@ fieldset label {
   font-size: 18px;
 }
 
-
+.menu-button {
+  display: none;
+}
 
 /* ///ADD/// Global Text Styles */
 blockquote {
@@ -256,7 +259,8 @@ h1{
   font-family: var(--font-heading);
   font-size: 2rem;
   color: var(--watchdog-white);
-  padding: 1rem;
+  padding: 0;
+  margin-bottom: 0.25rem;
 }
 
 h2, h3 {
@@ -307,6 +311,22 @@ a:focus {
 @media (min-width: 620px) {
   main {
     padding: 2rem;
+  }
+    .menu-button {
+    display: inline-block;
+    color: var(--watchdog-white);
+    background: var(--news-flash);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  nav ul {
+    display: none;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  #menu-toggle:checked + .menu-button + ul {
+    display: flex;
   }
 }
 /* ///ADD/// large styles 920px */
