@@ -142,13 +142,27 @@ nav a {
 
 /* ///ADD/// Global Layout Styles */
 
-header,
-main,
-footer {
-  width: 100%;
-  max-width: 100%;
+main {
+  max-width: 1400px;
   margin: 0 auto;
   padding: 1.5rem;
+}
+
+header > *,
+footer > * {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+footer a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--news-flash);
+  color: var(--watchdog-white);
+  font-weight: 600;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 0.5rem;
 }
 
 body {
