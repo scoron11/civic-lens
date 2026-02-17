@@ -149,6 +149,11 @@ footer {
   padding: 1.5rem;
 }
 
+body {
+  font-family: var(--font-body);
+  line-height: 1.5;
+}
+
 footer {
   text-align: center;
 }
