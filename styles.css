@@ -260,7 +260,7 @@ h2, h3 {
   font-family: var(--font-heading);
   font-weight: bold;
   font-size: 1rem;
-  color: var(--watchdog-white);
+  color: var(--truth-text);
   margin-bottom: 1rem;
 }
 
