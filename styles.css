@@ -114,6 +114,7 @@ header p {
 
 nav {
   grid-column: 1 / -1;
+  padding: 0 1rem;
 }
 
 nav ul {
@@ -138,7 +139,7 @@ nav a {
   display: none;
 }
 
-#menu-toggle:checked + ul {
+#menu-toggle:checked ~ ul {
   display: flex;
 }
 
@@ -389,6 +390,7 @@ a:focus {
     display: block;
     width: 100%;
     text-align: center;
+    padding: 0.75rem 1.25rem;
   }
   nav a {
     display: block;
