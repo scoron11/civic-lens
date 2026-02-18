@@ -327,21 +327,12 @@ footer h2 {
   margin-bottom: 0.5rem;
   justify-self: start;
   text-align: left;
+  width: 100%;
 }
 
 footer small {
   grid-row: 4;
   text-align: center;
-}
-
-nav a:hover,
-nav a:focus,
-footer a:hover,
-footer a:focus {
-  background-color: transparent;
-  color: var(--news-flash);
-  border: 2px solid var(--news-flash);
-  text-decoration: none;
 }
 
 .card {
@@ -376,6 +367,16 @@ footer a:focus {
 #breaking-news {
   display: grid;
   gap: 1.5rem;
+}
+
+nav a:hover,
+nav a:focus,
+footer a:hover,
+footer a:focus {
+  background-color: transparent;
+  color: var(--news-flash);
+  border: 2px solid var(--news-flash);
+  text-decoration: none;
 }
 
 /* ///ADD/// medium styles 620px */
