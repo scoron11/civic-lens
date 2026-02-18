@@ -222,6 +222,12 @@ footer {
   transition: var(--transition);
 }
 
+.featured-card:hover,
+.featured-card:focus-within {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.6);
+}
+
 form {
   display: grid;
   grid-template-columns: 1fr 1fr; 
