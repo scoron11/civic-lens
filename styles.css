@@ -220,6 +220,7 @@ footer {
   display: flex;
   flex-direction: column;
   transition: var(--transition);
+  border: 1px solid var(--story-subtitle);
 }
 
 .featured-card:hover,
@@ -350,6 +351,7 @@ footer small {
   display: flex;
   flex-direction: column;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid var(--story-subtitle);
 }
 
 .card:hover,
