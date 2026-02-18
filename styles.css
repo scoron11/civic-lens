@@ -391,11 +391,15 @@ a:focus {
     width: 100%;
     text-align: center;
     padding: 0.75rem 1.25rem;
+    box-sizing: border-box;
   }
   nav a {
     display: block;
     width: 100%;
     text-align: center;
+  }
+   nav ul {
+    padding: 0.25rem 0; /* small vertical padding */
   }
 }
 /* ///ADD/// large styles 920px */
