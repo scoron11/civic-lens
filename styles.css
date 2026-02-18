@@ -364,10 +364,9 @@ a:focus {
     display: none;
   }
   nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 1rem;
+    display: none;
+    flex-direction: column;
+    gap: .75rem;
   }
    form {
     grid-template-columns: 1fr; 
