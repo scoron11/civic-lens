@@ -185,7 +185,7 @@ body {
 footer {
   display: grid;
   grid-template-rows: auto auto 1fr auto;
-  justify-items: center;
+  justify-items: start;
   row-gap: 1rem;
   padding: 2rem;
   background-color: var(--blue-bulletin);
