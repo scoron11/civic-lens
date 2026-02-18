@@ -151,10 +151,14 @@ main {
   padding: 1.5rem;
 }
 
-header > *,
-footer > * {
+header > * {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+footer > * {
+  max-width: 1400px;
+  margin: 0;
 }
 
 footer ul {
@@ -164,6 +168,7 @@ footer ul {
   margin: 0;
   list-style: none;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 footer a {
@@ -188,7 +193,7 @@ footer {
   grid-template-rows: auto auto 1fr auto;
   justify-items: start;
   row-gap: 1rem;
-  padding: 2rem;
+  padding: 2rem 1rem;
   background-color: var(--blue-bulletin);
   color: var(--watchdog-white);
 }
