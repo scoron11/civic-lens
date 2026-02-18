@@ -164,9 +164,9 @@ footer ul {
   padding: 0;
   margin: 0;
   list-style: none;
-  justify-items: center; 
+  justify-items: start; 
   width: 100%;
-  max-width: 800px;
+  max-width: 1400px;
 }
 
 footer a {
