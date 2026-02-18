@@ -397,17 +397,19 @@ a:focus {
   nav a {
     display: block;
     width: 100%;
+    max-width: 520px;     
+    margin: 0 auto;      
     text-align: center;
   }
-  nav ul {
-    padding: 0.5rem 0;      
-    margin: 0 auto;          
-    display: flex;           
-    flex-direction: column;  
-    align-items: center;     
-    gap: 0.5rem;             
-    width: auto;            
-  }
+nav ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  gap: 0.5rem;
+}
+#menu-toggle:checked ~ ul {
+  margin-top: 0.5rem;
+}
 }
 /* ///ADD/// large styles 920px */
 
