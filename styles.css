@@ -290,6 +290,7 @@ fieldset label {
   font-weight: bold;
   font-size: 18px;
   cursor: pointer;
+  transition: var(--transition);
 }
 
 #subscribe:hover,
@@ -297,7 +298,6 @@ fieldset label {
   background-color: var(--watchdog-white);
   color: var(--blue-bulletin);
   border: 2px solid var(--blue-bulletin);
-  transition: var(--transition);
 }
 
 .menu-button {
@@ -480,6 +480,20 @@ body.light-mode {
 body.dark-mode {
   background-color: var(--truth-text);
   color: var(--watchdog-white);
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+
+  .card:hover,
+  .card:focus-within,
+  .featured-card:hover,
+  .featured-card:focus-within {
+    transform: none;
+  }
 }
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
