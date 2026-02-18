@@ -159,11 +159,12 @@ header > * {
 footer > * {
   max-width: 1400px;
   margin: 0;
+  margin: 0 auto;
 }
 
 footer ul {
   display: flex;
-  gap: 0.75rem;
+  gap: 1rem;
   padding: 0;
   margin: 0;
   list-style: none;
