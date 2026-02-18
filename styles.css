@@ -212,8 +212,8 @@ footer {
 }
 
 .featured-card {
-  background: var(--watchdog-white);
-  color: var(--truth-text);
+  background-color: inherit;
+  color: inherit;
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: var(--shadow);
@@ -463,7 +463,14 @@ footer a:focus {
 
 
 /* ///ADD/// Interaction Queries for color scheme light and dark and motion preference */
-
+body.light-mode {
+  background-color: var(--watchdog-white);
+  color: var(--truth-text);
+}
+body.dark-mode {
+  background-color: var(--truth-text);
+  color: var(--watchdog-white);
+}
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
 @supports (selector(:has(*))) {
