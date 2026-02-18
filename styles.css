@@ -392,6 +392,7 @@ a:focus {
     text-align: center;
     padding: 0.75rem 1.25rem;
     box-sizing: border-box;
+    margin-bottom: 0.5rem;
   }
   nav a {
     display: block;
@@ -399,7 +400,7 @@ a:focus {
     text-align: center;
   }
    nav ul {
-    padding: 0.25rem 0; /* small vertical padding */
+    padding: 0 1.5rem;
   }
 }
 /* ///ADD/// large styles 920px */
