@@ -158,15 +158,11 @@ footer > * {
 }
 
 footer ul {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
+  display: flex;
   gap: 1rem;
   padding: 0;
   margin: 0;
   list-style: none;
-  justify-items: start; 
-  width: 100%;
-  max-width: 1400px;
 }
 
 footer a {
