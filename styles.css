@@ -148,18 +148,18 @@ nav a {
 /* ///ADD/// Global Layout Styles */
 
 main {
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem 1rem;
 }
 
 header > * {
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 footer > * {
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0;
 }
 
