@@ -297,6 +297,7 @@ fieldset label {
   background-color: var(--watchdog-white);
   color: var(--blue-bulletin);
   border: 2px solid var(--blue-bulletin);
+  transition: var(--transition);
 }
 
 .menu-button {
