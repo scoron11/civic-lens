@@ -158,9 +158,11 @@ header > * {
   margin: 0 auto;
 }
 
-footer > * {
+footer h2,
+footer ul {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 #breaking-news > h2 {
@@ -198,6 +200,7 @@ body {
 footer {
   display: grid;
   grid-template-rows: auto auto 1fr auto;
+  grid-template-columns: 1fr;
   row-gap: 1rem;
   padding: 2rem 1rem;
   background-color: var(--blue-bulletin);
@@ -354,7 +357,6 @@ footer small {
   grid-column: 1 / -1;
   width: 100%;
   text-align: center;
-  justify-self: stretch;
 }
 
 .card {
