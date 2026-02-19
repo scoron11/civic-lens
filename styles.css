@@ -471,7 +471,11 @@ footer a:focus {
 }
 /* ///ADD/// x-large styles 1024px */
 
-
+@media (min-width: 1024px) {
+  main {
+    max-width: 1280px;
+  }
+}
 /* ///ADD/// Interaction Queries for color scheme light and dark and motion preference */
 body.light-mode {
   background-color: var(--watchdog-white);
@@ -498,5 +502,12 @@ body.dark-mode {
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
 @supports (selector(:has(*))) {
+  nav:has(#menu-toggle:checked) ul {
+    display: flex;
+  }
 
+  nav:has(#menu-toggle:checked) .menu-button {
+    outline: 2px solid var(--watchdog-white);
+    outline-offset: 3px;
+  }
 }
