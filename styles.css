@@ -198,11 +198,11 @@ body {
 footer {
   display: grid;
   grid-template-rows: auto auto 1fr auto;
-  justify-items: start;
   row-gap: 1rem;
   padding: 2rem 1rem;
   background-color: var(--blue-bulletin);
   color: var(--watchdog-white);
+  justify-content: center;
 }
 
 #featured-articles {
