@@ -145,17 +145,17 @@ nav a {
   display: flex;
 }
 
+header > * {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /* ///ADD/// Global Layout Styles */
 
 main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem 1rem;
-}
-
-header > * {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 footer h2,
@@ -316,13 +316,52 @@ fieldset label {
   cursor: pointer;
 }
 
+main section{
+  margin: 1rem auto;
+}
+
+.card {
+  background-color: var(--news-flash);
+  color: var(--watchdog-white);
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid var(--story-subtitle);
+}
+
+.card:hover,
+.card:focus-within {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.35);
+}
+
+.card video {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+
+#breaking-news {
+  display: grid;
+  gap: 1.5rem;
+}
+
+nav a:hover,
+nav a:focus,
+footer a:hover,
+footer a:focus {
+  background-color: transparent;
+  color: var(--watchdog-white);
+  border: 2px solid var(--news-flash);
+  text-decoration: none;
+}
+
 /* ///ADD/// Global Text Styles */
 blockquote {
   text-align: center;
-}
-
-main section{
-  margin: 1rem auto;
 }
 
 h1{
@@ -359,49 +398,10 @@ footer small {
   text-align: center;
 }
 
-.card {
-  background-color: var(--news-flash);
-  color: var(--watchdog-white);
-  padding: 1.5rem;
-  border-radius: 6px;
-  box-shadow: var(--shadow);
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  border: 1px solid var(--story-subtitle);
-}
-
-.card:hover,
-.card:focus-within {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.35);
-}
-
 .card h3 {
   border-bottom: 1px solid rgba(255,255,255,0.5);
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
-}
-
-.card video {
-  width: 100%;
-  margin-top: 1rem;
-  border-radius: 4px;
-}
-
-#breaking-news {
-  display: grid;
-  gap: 1.5rem;
-}
-
-nav a:hover,
-nav a:focus,
-footer a:hover,
-footer a:focus {
-  background-color: transparent;
-  color: var(--watchdog-white);
-  border: 2px solid var(--news-flash);
-  text-decoration: none;
 }
 
 /* ///ADD/// medium styles 620px */
