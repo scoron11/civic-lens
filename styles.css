@@ -160,7 +160,7 @@ header > * {
 
 footer > * {
   max-width: 1200px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 #breaking-news > h2 {
@@ -352,6 +352,7 @@ footer h2 {
 footer small {
   grid-row: 4;
   text-align: center;
+  justify-self: center;
 }
 
 .card {
