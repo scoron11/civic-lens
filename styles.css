@@ -390,7 +390,7 @@ nav a:focus,
 footer a:hover,
 footer a:focus {
   background-color: transparent;
-  color: var(--news-flash);
+  color: var(--watchdog-white);
   border: 2px solid var(--news-flash);
   text-decoration: none;
 }
