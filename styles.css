@@ -241,6 +241,7 @@ form {
   gap: 1rem 1.5rem;
   background: var(--news-flash);
   padding: 1.5rem;
+  color: var(--watchdog-white)
 }
 
 .form-group {
