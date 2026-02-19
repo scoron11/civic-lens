@@ -172,8 +172,6 @@ footer ul {
 footer ul {
   display: flex;
   gap: 1rem;
-  padding: 0;
-  margin: 0;
   list-style: none;
   flex-wrap: wrap;
   justify-content: flex-start;
