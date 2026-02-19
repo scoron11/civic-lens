@@ -202,7 +202,7 @@ footer {
   padding: 2rem 1rem;
   background-color: var(--blue-bulletin);
   color: var(--watchdog-white);
-  justify-content: center;
+  justify-content: start;
 }
 
 #featured-articles {
@@ -351,8 +351,8 @@ footer h2 {
 
 footer small {
   grid-row: 4;
+  width: 100%;
   text-align: center;
-  justify-self: center;
 }
 
 .card {
