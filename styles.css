@@ -351,8 +351,10 @@ footer h2 {
 
 footer small {
   grid-row: 4;
+  grid-column: 1 / -1;
   width: 100%;
   text-align: center;
+  justify-self: stretch;
 }
 
 .card {
