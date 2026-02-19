@@ -177,6 +177,7 @@ footer ul {
   list-style: none;
   flex-wrap: wrap;
   justify-content: flex-start;
+  width: 100%;
 }
 
 footer a {
